@@ -1,7 +1,7 @@
 +++
 title = "关于我"
 description = "郭泰彪: 架构师/科普作家/区块链爱好者"
-date = "2019-02-28"
+date = "2021-05-13"
 aliases = ["about-me","contact"]
 author = "Taibiao Guo"
 +++
@@ -18,6 +18,8 @@ author = "Taibiao Guo"
 
 ## 专利与软著
 
+<br />
+
 * 《可信计算环境的异构融合方法、装置及相关设备》        CN112087304A     2020-09-18
 
 * 《一种网关数据交互方法、装置、计算机设备及存储介质》   CN112532576A    2020-10-20
@@ -25,6 +27,8 @@ author = "Taibiao Guo"
 * 《基于数据库网关端的数据交互方法、装置及相关设备》     CN112446037A    2020-10-20
 
 ## 书籍与课程
+
+<br />
 
  * 《ZoreNet源码分析》([阅读](https://taibiaoguo.gitbooks.io/zeronetcommunicationanalysis/content/book_ZN/chapter1.html))    github  2018-01 
 
