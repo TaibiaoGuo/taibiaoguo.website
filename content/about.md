@@ -1,16 +1,36 @@
 +++
 title = "关于我"
-description = "郭泰彪: 程序员/研究员/老师/作家"
+description = "郭泰彪: 架构师/科普作家/区块链爱好者"
 date = "2019-02-28"
 aliases = ["about-me","contact"]
 author = "Taibiao Guo"
 +++
 
-郭泰彪是一名程序员
+## 简介
+
+郭泰彪（Taibiao Guo），架构师。
+
+## 关注领域
+
+<br />
+
+主要关注隐私计算、区块链、云原生领域，包括联盟链、可信执行环境、联邦学习、容器编排等技术，热衷于参与开源软件和开源社区。
+
+## 书籍及课程
+
+ * 《ZoreNet源码分析》([阅读](https://taibiaoguo.gitbooks.io/zeronetcommunicationanalysis/content/book_ZN/chapter1.html))    github  2018.01 
+
+    简介：分布式抗审查的网络 ZeroNet 通信及寻址解析。 
+    
+ * 《区块链技术及应用发展》([购买](https://item.jd.com/12923348.html))    清华大学出版社 2020.06
+
+    简介：全面系统讲解区块链的理论、技术、应用及未来发展，突出区块链技术和经济社会建设深度融合。
+    
+ * 区块链应用及技术发展([观看](https://taibiaoguo.github.io/blockchain101/2019-2020-spring-class-schedule/))    github 2020.06 
+
+    简介：帮助学生树立分布式整体性世界观，教学大纲将涵盖围绕区块链，通过应用密码学、分布式系统基础、博弈论的基础知识，把区块链作为分布式整体世界观最前沿的创新应用进行系统讲解。课程还将引入区块链智能合约的概念，帮助学生理解区块链编程的理念和应用的方法。
+
+ * 《区块链原理及应用》([购买](https://item.jd.com/12923348.html))  *即将发布* 2021.09
 
 
-郭泰彪是一名科普作家
-
-
-郭泰彪是一名研究员
-
+<br />

@@ -15,7 +15,7 @@ ignoreErrors = ["error-remote-getjson"]
     mainpagesubtitle = "你好，我是郭泰彪！" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
+    mainpagedesc = "本博客基于Hugo开发"
 
     # The name to display in the copyright section in the footer
     copyrightname = "TaibiaoGuo"
@@ -25,11 +25,11 @@ ignoreErrors = ["error-remote-getjson"]
 
 
     # Urls for social networks
-    facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    github = "https://github.com"
-    gitlab = "https://gitlab.com"
+    #facebook = "https://facebook.com"
+    #twitter = "https://twitter.com"
+    #linkedin = "https://linkedin.com"
+    #github = "https://github.com"
+    #gitlab = "https://gitlab.com"
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false
@@ -47,7 +47,7 @@ ignoreErrors = ["error-remote-getjson"]
     url = "http://jmf-portfolio.netlify.com"
 
     # Text to go before copyright information
-    prefix = "[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://gitlab.com/maxlefou/hugo.386)"
+    prefix = "[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://www.blockchain.com/btc/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "BTC Now"
@@ -56,13 +56,13 @@ ignoreErrors = ["error-remote-getjson"]
   # This displays buttons in the navbar to access your contents
   [[menu.main]]
     identifier = "about" # An unique identifier for the button
-    name = "About"       # A display name for the button
+    name = "关于我"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
     weight = 20          # A number to order the buttons in the navbar
 
   [[menu.main]]
     identifier = "posts"
-    name = "All posts"
+    name = "所有博客"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 10
 
