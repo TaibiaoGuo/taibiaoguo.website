@@ -50,7 +50,7 @@ ignoreErrors = ["error-remote-getjson"]
     prefix = "[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://gitlab.com/maxlefou/hugo.386)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "Example site"
+    suffix = "BTC Now"
 
 [menu]
   # This displays buttons in the navbar to access your contents
@@ -58,13 +58,13 @@ ignoreErrors = ["error-remote-getjson"]
     identifier = "about" # An unique identifier for the button
     name = "About"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
-    weight = 10          # A number to order the buttons in the navbar
+    weight = 20          # A number to order the buttons in the navbar
 
   [[menu.main]]
     identifier = "posts"
     name = "All posts"
     url = "/post/"       # The path can lead to a content folder too.
-    weight = 20
+    weight = 10
 
 [taxonomies]
 category = "categories"

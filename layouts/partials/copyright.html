@@ -1,0 +1,45 @@
+<style type="text/css">
+    #data {
+        /*display:inline;*/
+    }
+</style>
+
+<script type="text/javascript">
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
+
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4  &&  this.status == 200) {
+            var json = JSON.parse(this.responseText);
+            parseJson(json);
+        }
+    };
+
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+
+    function parseJson(json) {
+        var usdValue = " $" +  parseInt(json["bpi"]["USD"]["rate_float"]);
+
+        document.getElementById("data").innerHTML =
+            usdValue;
+    }
+</script>
+
+
+{{ with .Site.Params.Copyright.Prefix }}
+    {{ . | markdownify }} | 
+{{end}}
+&copy; 
+{{ with .Site.Params.copyright.url }}<a href="{{ . }}" target="_blank">{{ end }}
+    {{ .Site.Params.copyright.name }}
+{{ with .Site.Params.copyright.url }}</a>{{ end }}
+<span id="thisyear">1995-2020</span>
+{{ with .Site.Params.Copyright.Suffix }}
+    | {{ . | markdownify }}
+{{end}}
+<span id="data"></span>
+{{ if isset .Site.Params "showhugo" }}
+        | {{ i18n "builton" }} <a href="//gohugo.io" target="_blank">Hugo</a>
+{{ end }}
+
