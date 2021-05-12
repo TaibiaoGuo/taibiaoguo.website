@@ -14,7 +14,7 @@ jobs:
         #   submodules: true
 
       - name: dependencies
-        run: make dependencies
+        run: git submodules update --init
 
       - name: Build
         uses: docker://klakegg/hugo:ext-alpine
