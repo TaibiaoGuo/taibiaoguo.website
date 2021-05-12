@@ -4,7 +4,7 @@ languageCode = "zh"
 DefaultContentLanguage = "zh" # Change this to change the site's language
 theme = "386"
 preserveTaxonomyNames = true
-ignoreErrors = ["error-remote-getjson"]
+# ignoreErrors = ["error-remote-getjson"]
 
 [params]
     math =  true
