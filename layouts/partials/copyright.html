@@ -35,11 +35,8 @@
     {{ .Site.Params.copyright.name }}
 {{ with .Site.Params.copyright.url }}</a>{{ end }}
 <span id="thisyear">1995-2021</span>
-{{ with .Site.Params.Copyright.Suffix }}
+{{ with .Site.Params.copyright.suffix }}
     | {{ . | markdownify }}
 {{end}}
 <span id="data"></span>
-{{ if isset .Site.Params "showhugo" }}
-        | {{ i18n "builton" }} <a href="//gohugo.io" target="_blank">Hugo</a>
-{{ end }}
 

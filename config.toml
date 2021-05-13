@@ -21,14 +21,14 @@ preserveTaxonomyNames = true
     copyrightname = "TaibiaoGuo"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "http://jmf-portfolio.netlify.com"
+    copyrighturl = "https://taibiaoguo.com/about"
 
 
     # Urls for social networks
     #facebook = "https://facebook.com"
     #twitter = "https://twitter.com"
-    #linkedin = "https://linkedin.com"
-    #github = "https://github.com"
+    linkedin = "https://www.linkedin.com/in/taibiaoguo"
+    github = "https://github.com/TaibiaoGuo"
     #gitlab = "https://gitlab.com"
 
     # Enables or disables the loading animations. false activates them. Default is false.
@@ -44,7 +44,7 @@ preserveTaxonomyNames = true
     name = "TaibiaoGuo"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "http://jmf-portfolio.netlify.com"
+    url = "/about"
 
     # Text to go before copyright information
     prefix = "[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://www.blockchain.com/btc/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)"
