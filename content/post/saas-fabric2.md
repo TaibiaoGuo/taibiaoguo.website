@@ -15,19 +15,16 @@ categories = [
 ]
 +++
 
-虽然众多云服务厂商已经对外提供了SaaS级别的HyperLedger Fabric服务，但要在私有云环境中构建自己的生产级别HyperLedger Fabric服务仍然存在诸多挑战。
-
+虽然众多云服务厂商已经对外提供了SaaS级别的HyperLedger Fabric服务，但要在私有云环境中构建自己的生产级别HyperLedger Fabric服务依然是非常复杂的事情。
 目前大部分教程都源自于 HyperLedger Fabric 文档中提供的测试网络（test-network）或已经在 `v2.2`中删除了的"构建您的第一个网络"(BYFN) 或者 
 [minifabric](https://github.com/hyperledger-labs/minifabric) 这类快速 HyperLedger Fabric 环境搭建工具。
 进行的超级账本部署, 或是 HyperLedger Fabric 1.4 TLS 的Kubernetes部署方案 [2] 。
 
+## 预备知识
+
 [Hyperledger Fabric 2.2 LTS](https://www.hyperledger.org/blog/2020/07/20/new-release-hyperledger-fabric-2-2-lts) (后续简称 Fabric) 是超级账本的最新长期支持版本
 
 本文主要使用的工具为 Hyperledger Fabric 2.2 LTS 、 Kubernetes 、 Helm3 。
-
-> 云原生(Cloud Native)相关技术版本迭代很快，API会随着版本的演进快速变化，本文章没有对环境进行广泛测试，若您没有相关经验，请务必选择相同的软件版本进行实验。
-
-## 预备知识
 
 ### Fabric 相关概念
 
@@ -46,38 +43,41 @@ categories = [
 * [Kubernetes 服务](https://kubernetes.io/docs/concepts/services-networking/service/) - Kubernetes 服务集合了一系列的 Pod，并为集群中面向其他服务的 Pod 提供网络连接，无需公开每个 Pod 的真实私有 IP 地址。
 * [Kubernetes 持久卷 (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) - 持久卷是用户*请求获得*持久存储（比如 NFS 文件存储）的一种方式。
 
-## 生产级 SaaS 设计
-
-### 区块链网络设计
-
-### 区块链
-
-
 ### Hlem 相关概念
 
-## 环境准备
+##  SaaS 设计
+
+
+
+## SaaS 实现
+
+### 环境准备
+
+> 云原生(Cloud Native)相关技术版本迭代很快，API会随着版本的演进快速变化，本文章没有对环境进行广泛测试，若您没有相关经验，请务必选择相同的软件版本进行实验。
 
 * 本地搭建：
-    * [docker](https://www.docker.com/) v18.03 或更新
-    * [kubernetes]() v1.16 或更新
-    * [Helm]() v3 或更新
+    * [docker](https://www.docker.com/) v18.03 或更新。
+    * [kubernetes]() v1.16 或更新。
+    * [Helm]() v3 或更新。
     
 * 云环境：
 
-## 更多工作
+## 未来工作
 
 限于字数，本文主要围绕对生产级 BaaS 服务的云原生改造进行了阐述，相比于 HyperLedger Fabric 的测试环境，本文所定义的生产级 HyperLedger Fabric
 环境的可用性和安全性得到了提高，能够实现按需扩容并且服务非常容易迁徙，这些特性主要还是要感谢云原生技术的快速发展。
 
-目前市场上大部分云服务提供商都开放了 BaaS 服务，相比于本文的设计方案，可以提供更多实用的功能和安全增强。具体来说，主要包括：
+目前市场上大部分云服务提供商都开放了 BaaS 服务，相比于本文的设计方案，可以提供更多实用的功能。具体来说，主要包括：
 
-* 多租户隔离的设计
+* 多租户隔离：
 
-* 遥测监控的设计
+* 遥测监控：
 
-* 日志收集的设计
+* 日志收集：
 
-* 不停机升级的设计
+* 不停机升级：
+
+* 跨链：
 
 ## 参考资料
 
