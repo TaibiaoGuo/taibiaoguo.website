@@ -1,0 +1,77 @@
+baseURL: 'https://www.taibiaoguo.com'
+title: TaibiaoGuo.com
+languageCode: zh
+DefaultContentLanguage: zh
+theme: '386'
+preserveTaxonomyNames: true
+
+# Highlighting config
+pygmentsCodeFences : true
+pygmentsUseClasses : false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic : false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+#pygmentsStyle : "monokai"
+
+params:
+  math: true
+  mainpagetitle: TaibiaoGuo
+  mainpagesubtitle: 你好，我是郭泰彪！
+  mainpagedesc: 某隐私计算产品架构师，兼任高校教师。从小热爱计算机，仍患有改变世界的中二病。
+  copyrightname: TaibiaoGuo
+  copyrighturl: 'https://taibiaoguo.com/about'
+  linkedin: 'https://www.linkedin.com/in/taibiaoguo'
+  github: 'https://github.com/TaibiaoGuo'
+  loadfastload: false
+  loadspeedfactor: 2
+  loadonepass: false
+  copyright:
+    name: TaibiaoGuo
+    url: /about
+    prefix: >-
+      [1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://www.blockchain.com/btc/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)
+    suffix: 比特币价格：
+  katex:
+    enable: true
+    html_dom_element: document.body
+    options:
+      delimiters:
+        - left:  $$
+          right: $$
+          display: true
+        - left: $
+          right: $
+          display: false
+menu:
+  main:
+    - identifier: about
+      name: 关于我
+      url: /about/
+      weight: 20
+    - identifier: posts
+      name: 所有博客
+      url: /post/
+      weight: 10
+taxonomies:
+  category: categories
+  tag: tags
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+  instagram:
+    disabled: true
+    simple: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

@@ -10,4 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
     {{/* Don't ask why it's like this. This original theme is a mess... */}}
     <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
+    {{ if or .Params.math .Site.Params.math }}
+        {{ partial "math.html" . }}
+    {{ end }}
 </head>

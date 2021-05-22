@@ -57,8 +57,8 @@ categories = [
 
 * 本地搭建：
     * [docker](https://www.docker.com/) v18.03 或更新。
-    * [kubernetes]() v1.16 或更新。
-    * [Helm]() v3 或更新。
+    * [kubernetes]( ) v1.16 或更新。
+    * [Helm]( ) v3 或更新。
     
 * 云环境：
 
@@ -69,7 +69,7 @@ categories = [
 
 目前市场上大部分云服务提供商都开放了 BaaS 服务，相比于本文的设计方案，可以提供更多实用的功能。具体来说，主要包括：
 
-* 多租户隔离：
+* 多租户隔离：$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $
 
 * 遥测监控：
 
