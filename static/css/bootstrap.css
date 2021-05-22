@@ -221,16 +221,10 @@ textarea {
   }
 }
 
-@font-face {
-  font-family: 'DOS';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/IPix.ttf');
-}
 
 body {
   margin: 0;
-  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #bbbbbb;
@@ -1017,7 +1011,7 @@ address {
 code,
 pre {
   padding: 0;
-  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 18px;
   color: #555555;
   -webkit-border-radius: 0;
@@ -1117,7 +1111,7 @@ input,
 button,
 select,
 textarea {
-  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 label {
@@ -4331,7 +4325,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 12.4px;
   margin-bottom: 0;
-  font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: 'Noto Sans SC', sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 1;
