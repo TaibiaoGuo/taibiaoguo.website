@@ -15,8 +15,8 @@ categories = [
 ]
 +++
 
-虽然众多云服务厂商已经对外提供了SaaS级别的HyperLedger Fabric服务，但要在私有云环境中构建自己的生产级别HyperLedger Fabric服务依然是非常复杂的事情。
-目前大部分教程都源自于 HyperLedger Fabric 文档中提供的测试网络（test-network）或已经在 `v2.2`中删除了的"构建您的第一个网络"(BYFN) 或者 
+目前大部虽然众多云服务厂商已经对外提供了SaaS级别的HyperLedger Fabric服务，但要在私有云环境中构建自己的生产级别HyperLedger Fabric服务依然是非常复杂的事情。
+分教程都源自于 HyperLedger Fabric 文档中提供的测试网络（test-network）或已经在 `v2.2`中删除了的"构建您的第一个网络"(BYFN) 或者 
 [minifabric](https://github.com/hyperledger-labs/minifabric) 这类快速 HyperLedger Fabric 环境搭建工具。
 进行的超级账本部署, 或是 HyperLedger Fabric 1.4 TLS 的Kubernetes部署方案 [2] 。
 
