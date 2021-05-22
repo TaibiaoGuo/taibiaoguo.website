@@ -50,7 +50,7 @@ preserveTaxonomyNames = true
     prefix = "[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://www.blockchain.com/btc/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "BTC Now"
+    suffix = "比特币价格："
 
 [menu]
   # This displays buttons in the navbar to access your contents

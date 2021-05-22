@@ -19,7 +19,7 @@
     xmlhttp.send();
 
     function parseJson(json) {
-        var usdValue = " $" +  parseInt(json["bpi"]["USD"]["rate_float"]);
+        var usdValue = parseInt(json["bpi"]["USD"]["rate_float"]) + "美元";
 
         document.getElementById("data").innerHTML =
             usdValue;
