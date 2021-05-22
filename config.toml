@@ -15,7 +15,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "你好，我是郭泰彪！" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "本博客基于Hugo开发"
+    mainpagedesc = "某隐私计算产品架构师，兼任高校教师。从小热爱计算机，仍患有改变世界的中二病。"
 
     # The name to display in the copyright section in the footer
     copyrightname = "TaibiaoGuo"
